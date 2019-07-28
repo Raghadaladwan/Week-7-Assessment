@@ -35,7 +35,8 @@ and return a new array with the object has
 a name longer than the first parameter
 and in the same time less than the second parameters 
 
-var arrOfObj1 = [
+var arrOfObj1 = 
+[
   { name: "alex" ,age:22},
   { name: "mercer",age:26},
   { name: "alice" ,age:33},
@@ -48,17 +49,16 @@ Output =>
 [ 
   { name: "mercer",age:26},
 ]
-
 Example: 
 longerAndYounger(arrOfObj1,3,30)
-Output =>
-[ 
+Output =>[ 
   { name: "alex" ,age:22},
   { name: "mercer",age:26}
 ]
 */
 
-function longerAndYounger() {
+function longerAndYounger()
+{
   // WRITE YOUR CODE UNDER THIS LINE         
 }
 
@@ -70,7 +70,8 @@ and return a string have the name of object that
 equal to the index that passesd in the parameter 
 and with all the food from other objects
 
-var arrOfObj2 = [
+var arrOfObj2 = 
+[
   { name: "alex", food: "fried chiken" },
   { name: "mercer", food: "pizaa" },
   { name: "alice", food: "burger" },

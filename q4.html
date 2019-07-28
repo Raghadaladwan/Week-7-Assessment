@@ -3,10 +3,50 @@
 
 <head>
 	<!-- WRITE YOUR CODE UNDER THIS LINE          -->
+	<title> Q4 </title>
+
+	<style>
+		#no{
+			background-color: red;
+		}
+		#yes{
+			background-color: green;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- WRITE YOUR CODE UNDER THIS LINE          -->
+	<div class="min">
+		 Main div is here 
+		<button id="no"> Red </button>
+		<button id="yes"> Green </button>
+	</div>
+
+	
+	<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous">
+	</script>
+  
+  <script>
+
+$(document).ready(function(){
+	$("#no").click(function()
+       {
+	$("#min").css({"background-color":"Red"});
+
+	 });
+
+	 $("#yes").click(function(){
+	$("#min").css({"background-color":"Green"});
+
+     });
+}); 
+
+</script>
 </body>
+
 
 </html>
